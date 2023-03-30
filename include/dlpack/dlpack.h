@@ -116,6 +116,9 @@ typedef enum {
   kDLWebGPU = 15,
   /*! \brief Qualcomm Hexagon DSP */
   kDLHexagon = 16,
+
+  /*! \brief (Rebellions) Pinned Atom CPU memory */
+  kDLAtomHost = 18,
 } DLDeviceType;
 
 /*!
